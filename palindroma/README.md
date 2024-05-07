@@ -6,7 +6,7 @@
 
 function palindroma(parola){
     for (let i = 0; i < lunghezza; i++){
-        SE (parola[i] === parola[lunghezza-i]){
+        SE (parola[i] === parola[lunghezza-1-i]){
             return "La parola inserita è palindroma";
         } Altrimenti {
             return "La parola inserita non è palindroma"
