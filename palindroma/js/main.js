@@ -3,6 +3,8 @@
 // Creo la funzione "palindroma" con parametro parola
 function palindroma(parola){
     console.log('Hai inserito questa parola:', parola);
+    // Con lowercase possiamo inserire anche lettere maiuscole senza ricevere errori
+    parola = parola.toLowerCase();
     // Creo una variabile lunghezza per semplificare
     let lunghezza = parola.length;
     console.log('Questa è la lunghezza della parola:', lunghezza);
