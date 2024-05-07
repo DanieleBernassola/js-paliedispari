@@ -5,7 +5,7 @@
 <!-- Creare una funzione per capire se la parola inserita è palindroma -->
 
 function palindroma(parola){
-    for (let i = 0; i < parola.length; i++){
+    for (let i = 0; i < lunghezza; i++){
         SE (parola[i] === parola[lunghezza-i]){
             return "La parola inserita è palindroma";
         } Altrimenti {
@@ -14,4 +14,5 @@ function palindroma(parola){
     }
 }
 
-- creo una variabile parola e salvo il valore di un prompt
+- creo una variabile parola e salvo il valore di un prompt palindroma(prompt())
+- console.log(palindroma(prompt())); in modo da mostrare il return in console
