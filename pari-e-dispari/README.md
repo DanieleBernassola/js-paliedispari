@@ -25,9 +25,7 @@ function pariDispari(somma){
 }
 
 <!-- Dichiariamo chi ha vinto. -->
-SE (getRndInteger() && sceltaUtente === "pari") {
-    console.log('Hai vinto contro il computer');
-} Altrimenti SE (getRndInteger() && sceltaUtente === "dispari") {
+SE (pariDispari(somma) === sceltaUtente) {
     console.log('Hai vinto contro il computer');
 } Altrimenti {
     console.log('Ha vinto il computer');
